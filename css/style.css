@@ -240,10 +240,10 @@ header {
 }
 
 .bg-gradient {
-    background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: -moz-linear-gradient( 135deg, rgba(118, 8, 23, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgba(118, 8, 23, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgba(118, 8, 23, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: linear-gradient( 135deg, rgba(118, 8, 23, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
 }
 
 .tagline {
@@ -252,6 +252,7 @@ header {
     color: #ffb8f6;
     max-width: 800px;
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 .img-holder {
@@ -639,4 +640,12 @@ header {
         text-align: center;
         margin-top: 2rem;
     }
+}
+
+.not-fixed-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
