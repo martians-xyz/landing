@@ -245,6 +245,7 @@ header {
 
 #home{
     height: 100vh;
+    min-height: 780px;
 }
 
 .bg-gradient {
@@ -604,7 +605,7 @@ header {
     margin-bottom: 2.5rem;
 }
 
-.call-to-action h2 {
+.call-to-action h2, #contact h4 {
     color: #FFF;
 }
 
