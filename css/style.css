@@ -96,6 +96,10 @@ p.lead {
     font-weight: 300;
 }
 
+.bold-font {
+    font-weight: 600;
+}
+
 .btn {
     font-size: 12px;
     font-weight: 400;
