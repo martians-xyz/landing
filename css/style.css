@@ -269,6 +269,10 @@ header {
     margin-top: 10%;
 }
 
+.centred{
+    text-align: center;
+}
+
 .img-holder {
     height: 0;
     padding-bottom: 33%;
