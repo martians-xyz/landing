@@ -177,6 +177,7 @@ p.lead {
     h2 {
         font-size: 30px;
     }
+
 }
 
 
@@ -292,6 +293,7 @@ header {
     .img-holder {
         padding-bottom: 100%;
     }
+    .p-top-20m{padding-top: 20px}
 }
 
 
@@ -380,6 +382,7 @@ header {
         font-size: 28px;
         line-height: 50px;
     }
+    .p-top-20{padding-top: 20px}
 }
 
 .ui-steps li:hover .circle-icon {
