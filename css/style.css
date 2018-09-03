@@ -294,6 +294,7 @@ header {
         padding-bottom: 100%;
     }
     .p-top-20m{padding-top: 20px}
+    #projects img{display: none}
 }
 
 
